@@ -34,13 +34,17 @@ yarn add gramscraper
 ```
 
 ## Basic Usage
+It is easy to get gramscraper working once you have acquired an instagram access token. Refer to the instructions above on how you can get an access token.
 ```javascript
 const gramscraper = require('gramscraper')
 
+// Replace this with your Instagram username
 const username = 'goproglenn'
+// Repalce this with your Instagram access token (See instructions above on how to get one)
 const access_token = '1234567890'
 
 function getPhotos() {
+  // Scrape takes 2 parameters: access token and username
   gramscraper.scrape(access_token, username)
     .then(res => {
       res.map( photo => {
