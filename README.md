@@ -1,4 +1,4 @@
-# Gramscraper [![npm version](https://badge.fury.io/js/gramscraper.svg)](https://badge.fury.io/js/gramscraper) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Gramscraper [![npm version](https://badge.fury.io/js/gramscraper.svg)](https://badge.fury.io/js/gramscraper) [![npm](https://img.shields.io/npm/dt/gramscraper.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Gramscraper is a simple middleware to retrieve recent photos from Instagram.
 
 ## Registering for an Instagram access token
